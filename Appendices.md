@@ -23,10 +23,9 @@ LaTeX macros from numbers.tex have been expanded: \nSystems = 16,
 ## Appendix 1 — System identifiers and repository folders
 
 The table below maps the canonical system identifiers used throughout the
-paper to the public GitHub repository of each system (under
-`github.com/acherm/`, shared prefix `agentic-` omitted). The analysis
+paper to the public GitHub repository of each system. The analysis
 pipeline and derived datasets are in the study hub,
-<https://github.com/acherm/agentic-cobol-study>. The released material
+<https://anonymous.4open.science/r/agentic-cobol-study-A377>. The released material
 (session logs, derived measurements and reports, replay packs) is organized
 by the historical working-folder names of the sessions, which differ from
 the paper identifiers, and the hub README gives the mapping between the two.
