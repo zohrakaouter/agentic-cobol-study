@@ -18,7 +18,7 @@ repository (below), preserved as the agent produced it.
 | System | Repository | What it is | Dev agent (model) | Difficulty |
 |---|---|---|---|---|
 | `CHESS-COBOL-CLAUDE` | [agentic-chessengine-cobol-cc](10.5281/zenodo.23105599) | a UCI chess engine written in COBOL | Claude Code (`claude-opus-4-6`) | High |
-| `CHESS-COBOL-CODEX` | [agentic-chessengine-cobol-codex](https://anonymous.4open.science/r/agentic-chessengine-cobol-codex-4322) | a UCI chess engine written in COBOL, architecture-first (184-feature backlog) | Codex (`gpt-5.2`) | High |
+| `CHESS-COBOL-CODEX` | [agentic-chessengine-cobol-codex](10.5281/zenodo.23105689) | a UCI chess engine written in COBOL, architecture-first (184-feature backlog) | Codex (`gpt-5.2`) | High |
 | `COMPILER-COBOL-CLAUDE` | [agentic-cobol-compiler-cobolcc](https://anonymous.4open.science/r/agentic-cobol-compiler-cobolcc-6738) | a COBOL compiler (and interpreter) written in COBOL, emitting C (self-hosting reported in the transcript, not independently reproduced) | Claude Code (`claude-opus-4-6`) | Very-High |
 | `COMPILER-COBOL-CODEX` | [agentic-cobol-compiler-minicobc](https://anonymous.4open.science/r/agentic-cobol-compiler-minicobc-044C) | minicobc, a COBOL-to-C compiler written in COBOL | Codex (`gpt-5.4`) | Very-High |
 | `COMPRESS-COBOL-CLAUDE` | [agentic-cobol-compress-cc](https://anonymous.4open.science/r/agentic-cobol-compress-cc-BB0E) | the COBPACK columnar compression container implemented in COBOL | Claude Code (`claude-opus-4-6`) | Low |
