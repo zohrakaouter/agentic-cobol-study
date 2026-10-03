@@ -23,9 +23,10 @@ LaTeX macros from numbers.tex have been expanded: \nSystems = 16,
 ## Appendix 1 — System identifiers and repository folders
 
 The table below maps the canonical system identifiers used throughout the
-paper to the public GitHub repository of each system. The analysis
+paper to the public GitHub repository of each system (under
+`github.com/acherm/`, shared prefix `agentic-` omitted). The analysis
 pipeline and derived datasets are in the study hub,
-<https://anonymous.4open.science/r/agentic-cobol-study-A377>. The released material
+<https://github.com/acherm/agentic-cobol-study>. The released material
 (session logs, derived measurements and reports, replay packs) is organized
 by the historical working-folder names of the sessions, which differ from
 the paper identifiers, and the hub README gives the mapping between the two.
@@ -294,7 +295,7 @@ the temporal rhythm of the two compiler trajectories.
 <a id="figure-4-1"></a>
 <a id="fig-intents"></a>
 
-![Heuristic user-prompt classification and first-prompt activity across the 16 systems](figures/intents.png)
+![Heuristic user-prompt classification and first-prompt activity across the 16 systems](/r/agentic-cobol-study-A377/figures/intents.png)
 
 **Figure 4.1.** Heuristic user-prompt classification (top) and first-prompt
 activity (bottom) across the 16 systems. Redirect, bug-report, and
@@ -304,7 +305,7 @@ manually validated.
 <a id="figure-4-2"></a>
 <a id="fig-active-wall"></a>
 
-![Wall-clock span versus active collaboration time per system, log scale](figures/active_vs_wall.png)
+![Wall-clock span versus active collaboration time per system, log scale](/r/agentic-cobol-study-A377/figures/active_vs_wall.png)
 
 **Figure 4.2.** Wall-clock span (including idle gaps) versus active
 collaboration time per system, log scale.
@@ -312,7 +313,7 @@ collaboration time per system, log scale.
 <a id="figure-4-3"></a>
 <a id="fig-verb-families"></a>
 
-![COBOL verb families deployed per project, log scale](figures/verb_families.png)
+![COBOL verb families deployed per project, log scale](/r/agentic-cobol-study-A377/figures/verb_families.png)
 
 **Figure 4.3.** COBOL verb families (PROCEDURE-DIVISION statements) deployed
 per project, log scale. Every project exercises *data movement*,
@@ -322,7 +323,7 @@ present where the domain demands them.
 <a id="figure-4-4"></a>
 <a id="fig-compiler-timeline"></a>
 
-![Temporal rhythm of the two compiler trajectories over cumulative active collaboration time](figures/compiler_timeline.png)
+![Temporal rhythm of the two compiler trajectories over cumulative active collaboration time](/r/agentic-cobol-study-A377/figures/compiler_timeline.png)
 
 **Figure 4.4.** Temporal rhythm of the two compiler trajectories over
 cumulative active collaboration time (inter-event gaps ≤ 10 min). Blue curve:
