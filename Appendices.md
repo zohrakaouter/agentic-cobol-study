@@ -287,13 +287,9 @@ with [Table 3.3](#table-3-3).
 
 ## Appendix 4 — Additional figures
 
-[Figure 4.1](#figure-4-1), [Figure 4.2](#figure-4-2), [Figure 4.3](#figure-4-3),
-and [Figure 4.4](#figure-4-4) detail the heuristic user-prompt classification,
-estimated active versus wall-clock time, verb-family coverage per system, and
-the temporal rhythm of the two compiler trajectories.
-
-<a id="figure-4-1"></a>
-<a id="fig-intents"></a>
+The figures below detail the heuristic user-prompt classification, estimated
+active versus wall-clock time, verb-family coverage per system, and the
+temporal rhythm of the two compiler trajectories.
 
 ![Heuristic user-prompt classification and first-prompt activity across the 16 systems](/r/agentic-cobol-study-A377/figures/intents.png)
 
@@ -302,16 +298,10 @@ activity (bottom) across the 16 systems. Redirect, bug-report, and
 review-request rules match 25.3% of prompts. The classifier has not been
 manually validated.
 
-<a id="figure-4-2"></a>
-<a id="fig-active-wall"></a>
-
 ![Wall-clock span versus active collaboration time per system, log scale](/r/agentic-cobol-study-A377/figures/active_vs_wall.png)
 
 **Figure 4.2.** Wall-clock span (including idle gaps) versus active
 collaboration time per system, log scale.
-
-<a id="figure-4-3"></a>
-<a id="fig-verb-families"></a>
 
 ![COBOL verb families deployed per project, log scale](/r/agentic-cobol-study-A377/figures/verb_families.png)
 
@@ -319,9 +309,6 @@ collaboration time per system, log scale.
 per project, log scale. Every project exercises *data movement*,
 *arithmetic*, and *control flow*, while file/terminal I/O and C interop are
 present where the domain demands them.
-
-<a id="figure-4-4"></a>
-<a id="fig-compiler-timeline"></a>
 
 ![Temporal rhythm of the two compiler trajectories over cumulative active collaboration time](/r/agentic-cobol-study-A377/figures/compiler_timeline.png)
 
